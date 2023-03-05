@@ -1,0 +1,249 @@
+/* .body {
+  background-color: white;
+  color: black;
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'arial'  Times, serif;
+}
+
+#product {
+  margin-top:30px;
+}
+#hero h3 {
+  padding-top: 50px;
+  padding-left: 90px;
+}
+#hero .lead {
+  padding-left: 250px;
+}
+
+.container .stock img{
+  margin-top: 16px;
+  width: 320px;
+  height: 320px;
+  background-color: gray;
+}
+
+.boxsize {
+
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+}
+.boxsize img {
+  width: 320px;
+  height: auto;
+
+}
+.boxsize p {
+  text-align: left;
+}
+.boxsize button{
+  text-align:center;
+  border-radius: 10px;
+}
+#hero{
+  background-image: url(/assets/imgjam/hero11.webp);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#hero h3 {
+  padding-top: 50px;
+  padding-left: 90px;
+}
+#hero .lead {
+  padding-left: 250px;
+}
+#about{
+  background-color: grey;
+}
+#about p {
+  padding: 20px;
+  color: red;
+}
+.buy{
+  padding: 2px 15px;
+}
+.btn-click{
+  background-color: #000000;
+  color: blanchedalmond;
+  padding: 10px;
+  width: 80px;
+
+
+
+
+}
+.customer{
+  margin-top: 100px;
+  margin-left: 30px;
+}
+#contact {
+  background-image: url(/assets/imgjam/background2.webp);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+}
+.contact-subs {
+  background: rgb(43, 41, 41);
+  background: linear-gradient(
+    90deg,
+    rgba(43, 41, 41, 0.8) 0%,
+    rgba(43, 41, 41, 0.8) 47%,
+    rgba(114, 114, 111, 0.9) 47%,
+    rgba(114, 114, 111, 0.8046568969384629) 100%
+  );
+}
+@media screen and (max-width: 768px) {
+  #hero .lead{ 
+    padding-left: 20px ;
+
+  }
+}
+
+/* #light{
+  background-color:white;
+  color: black;
+}
+#dark{
+  background-color: black;
+  color: white;
+} */
+
+/* darkmode */
+.App {
+  font-family: "Ubuntu", sans-serif;
+  width: 100vw;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+}
+
+#light {
+  background-color: white;
+  color:black;
+}
+
+#dark {
+  background-color: black;
+  color:white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.switch label {
+  /* right:90px; */
+  position:fixed;
+  padding-top: 77px;
+}
+.switch .mode {
+top: 75px;
+left:90px;
+/* left: 1270px; */
+position: absolute;
+}
+
+#light .switch label {
+  color: black;
+}
+
+#dark .switch label {
+  color: white;
+
+} 
+
+.navstok {
+  margin-top:-38px;
+}
+
+@media screen and (max-width: 375px) {
+  .switch label{ 
+    padding-top: 157px;
+
+  }
+  .switch .mode {
+    top: 155px;
+    left:90px;
+    position: absolute;
+    }
+}
+
+@media screen and (max-width: 375px) {
+  .product-img-box img {
+      width: 250px;
+      height: 250px;
+  
+  }
+} 
+
+/* my javascript sticky */
+.myH1 {
+  position: fixed;
+  right: 0;
+  bottom: 32px;
+  z-index: 1;
+  font-size: 50px;
+  font-weight: bold;
+  background-color:green;
+  color:white;
+ 
+}
+
+
+@media screen and (max-width: 768px) {
+  .myH1{
+      display: none;
+  }
+}
+.anchor1 {
+  position: fixed;
+  bottom: 0;
+  right: 80px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  background-color: black;
+}
+.anchor2 {
+  position: fixed;
+  bottom: 0;
+  right: 300px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  background-color: black;
+
+}
+.myH3 {
+  position: fixed;
+  bottom: 90px;
+  right: 478px;
+  z-index: 1;
+  font-size: 25px;
+  font-weight: bold;
+  background-color:red;
+  color:black;
+}
+.myH3:onclick {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .myH1{
+      display: none;
+  }
+  .myH3{
+      display: none;
+  }
+}

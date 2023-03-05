@@ -1,0 +1,33 @@
+[debug] [2023-03-03T10:58:33.755Z] ----------------------------------------------------------------------
+[debug] [2023-03-03T10:58:33.774Z] Command:       C:\node64\node.exe C:\node64\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2023-03-03T10:58:33.778Z] CLI Version:   11.23.1
+[debug] [2023-03-03T10:58:33.779Z] Platform:      win32
+[debug] [2023-03-03T10:58:33.780Z] Node Version:  v16.14.0
+[debug] [2023-03-03T10:58:33.784Z] Time:          Fri Mar 03 2023 17:58:33 GMT+0700 (Waktu Indonesia Barat)
+[debug] [2023-03-03T10:58:33.785Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-03T10:58:34.561Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-03T10:58:34.565Z] > authorizing via signed-in user (muhamadrizkibahtiar05@gmail.com)
+[debug] [2023-03-03T10:58:34.566Z] [iam] checking project template-project01-my-app for permissions ["firebase.projects.get"]
+[debug] [2023-03-03T10:58:34.583Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/template-project01-my-app:testIamPermissions [none]
+[debug] [2023-03-03T10:58:34.585Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/template-project01-my-app:testIamPermissions x-goog-quota-user=projects/template-project01-my-app
+[debug] [2023-03-03T10:58:34.586Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/template-project01-my-app:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-03-03T10:58:36.424Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/template-project01-my-app:testIamPermissions 200
+[debug] [2023-03-03T10:58:36.428Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/template-project01-my-app:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-03-03T10:58:36.438Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/template-project01-my-app [none]
+[debug] [2023-03-03T10:58:37.292Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/template-project01-my-app 200
+[debug] [2023-03-03T10:58:37.295Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/template-project01-my-app {"projectId":"template-project01-my-app","projectNumber":"673297813835","displayName":"template-project01-my-app","name":"projects/template-project01-my-app","resources":{"hostingSite":"template-project01-my-app"},"state":"ACTIVE","etag":"1_46d60eb2-9792-4263-a174-aff8d8aab724"}
+[info] 
+[info] === Serving from 'C:\project\my-app'...
+[info] 
+[debug] [2023-03-03T10:58:37.342Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/template-project01-my-app/sites 
+[debug] [2023-03-03T10:58:38.436Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/template-project01-my-app/sites 200
+[debug] [2023-03-03T10:58:38.437Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/template-project01-my-app/sites {"sites":[{"name":"projects/template-project01-my-app/sites/template-project01-my-app","defaultUrl":"https://template-project01-my-app.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2023-03-03T10:58:38.439Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/template-project01-my-app/webApps/-/config [none]
+[debug] [2023-03-03T10:58:39.607Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/template-project01-my-app/webApps/-/config 200
+[debug] [2023-03-03T10:58:39.609Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/template-project01-my-app/webApps/-/config {"projectId":"template-project01-my-app","storageBucket":"template-project01-my-app.appspot.com","apiKey":"AIzaSyBkO2cjIIBxD5BUi9cytj91dJ41dPjRHIg","authDomain":"template-project01-my-app.firebaseapp.com","messagingSenderId":"673297813835"}
+[debug] [2023-03-03T10:58:39.784Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/template-project01-my-app [none]
+[debug] [2023-03-03T10:58:40.357Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/template-project01-my-app 200
+[debug] [2023-03-03T10:58:40.358Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/template-project01-my-app {"projectId":"template-project01-my-app","projectNumber":"673297813835","displayName":"template-project01-my-app","name":"projects/template-project01-my-app","resources":{"hostingSite":"template-project01-my-app"},"state":"ACTIVE","etag":"1_46d60eb2-9792-4263-a174-aff8d8aab724"}
+[info] i  hosting[template-project01-my-app]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[template-project01-my-app]: Local server: http://localhost:5002 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5002\u001b[22m\u001b[24m"}}
